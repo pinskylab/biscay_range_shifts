@@ -8,10 +8,6 @@ source("scripts/field_helpers.R")
 get_from_google()
 
 
-# include pit tag scanner output
-pitfile <- ("data/BioTerm.txt")
-#download file from first pit tag scanner (in use through 21 March 2018)
-oldpitfile <- ("data/BioTerm_old.txt") 
  
 
 problem <- data.frame()
