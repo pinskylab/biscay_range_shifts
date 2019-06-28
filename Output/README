@@ -1,10 +1,11 @@
-Here you will find some preliminary results of the model obtained by "plot_results" function. As Jim suggested, this is a simple
+Here you will find some preliminary results of the model. As Jim suggested, this is a simple
 model with no covariates, with both spatial and spatio-temporal variation and with years ranging from 1990 to 2018. 
 Details on model configuration can be found in settings file.
 
-Some notes:
+Some notes (Jim feel free to correct me or to add additional notes):
+
 > Diag--Encounter_prob: to check whether observed encounter frequencies are within the 95% predictive 
-  interval for predicted encounter probability
+  interval for predicted encounter probability.
 > Effective area: range expansion/contraction
 > Index biomass: changes in abundances. This plot needs to be readjusted, since we are not using catches but densities.
 > Output aniso: I don't know how to interpret this.
@@ -15,4 +16,3 @@ Some notes:
 > Q-Q plot: diagnostic plot to check if the distribution of our data follows the assumed distribution.
 > Center of gravity: changes in gravity center in West-East direction (left) and South-North (rigth).
 
-Jim feel free to add additional notes. 
