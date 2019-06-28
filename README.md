@@ -1,5 +1,2 @@
-Hi there, 
-we have been exploring the effort and this is how it looks. 
-I've uploaded some spatial plots for common dolphin, per year and per year and month, where the black dots refer to effort and red dots to sightings. And also, a file with the number of days that have been surveyed per month every year.
-It seems that the systematic samplings start in 2002, which would reduce substantially the temporal range. 
-
+Figures refer to those plots regarding the effort 
+Output incudes those plots obtained with the model
