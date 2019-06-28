@@ -1,0 +1,11 @@
+settings = make_settings(n_x=50, Region="Other", purpose="index", strata.limits=data.frame(STRATA="All_areas"),ObsModel=c(1,1))
+settings$FieldConfig=c(1,1,1,1)
+
+density_esw = fit_model("settings"=settings, 
+                           "Lat_i"=del$Lat,  "Lon_i"=del$Lon, 
+                           "t_i"=del$Year, 
+                           "c_i"=rep(0,nrow(del)),
+                           "b_i"=del$Density, 
+                           "a_i"=rep(1,nrow(del)), 
+                           extrapolation_args = list(observations_LL=del[,c("Lon","Lat")]), 
+                           bias.correct=TRUE) #FALSE when there is no space
