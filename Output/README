@@ -2,7 +2,7 @@ Here you will find some preliminary results of the model. As Jim suggested, this
 model with no covariates, with both spatial and spatio-temporal variation and with years ranging from 1990 to 2018. 
 Details on model configuration can be found in settings file.
 
-Some notes (feel free to correct me or to add additional notes):
+Some notes about the plots (feel free to correct me or to add additional notes):
 
 > Diag--Encounter_prob: to check whether observed encounter frequencies are within the 95% predictive 
   interval for predicted encounter probability.
