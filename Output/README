@@ -1,6 +1,6 @@
 Here you will find some preliminary results of the model. As Jim suggested, this is a simple
 model with no covariates, with both spatial and spatio-temporal variation and with years ranging from 1990 to 2018. 
-Details on model configuration can be found in settings file.
+Details on model configuration can be found in settings and parameter_estimation file.
 
 Some notes about the plots (feel free to correct me or to add additional notes):
 
