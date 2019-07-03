@@ -1,5 +1,5 @@
 
-Those are the new results after having incoporated an autoregressive structure for spatiotemporal process. 
+Those are the new results after having incoporated an autoregressive structure for spatiotemporal process as Jim suggested.
 This allows VAST to estimate whether "hotspots" in population density typically persist from one year to the next (Thorson, 2019). 
 However, by doing this the model was likely not converged (results can be found in non_converged folder). 
 So, I also incorporated an autoregressive structure on intercepts, which will be useful when interpolating into years when data are not available.
