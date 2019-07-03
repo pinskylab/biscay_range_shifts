@@ -2,8 +2,11 @@
 Those are the new results after having incoporated an autoregressive structure for spatiotemporal process as Jim suggested.
 This allows VAST to estimate whether "hotspots" in population density typically persist from one year to the next (Thorson, 2019). 
 However, by doing this the model was likely not converged (results can be found in non_converged folder). 
+
 So, I also incorporated an autoregressive structure on intercepts, which will be useful when interpolating into years when data are not available.
-The AIC for this model was lower than in previous two models (AIC values can be found in parameter estimation file).
+The AIC for this model was lower (AIC values can be found in parameter estimation file).
+
+One of the biggest differences between two models was the abundance index (Index Biomass plot).
 
 The explanation for each plot remains as before:
 
