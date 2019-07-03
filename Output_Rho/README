@@ -1,4 +1,22 @@
 
-Those are the new results after having incoporated an autoregressive structure for spatiotemporal process. The AIC is lower now. 
+Those are the new results after having incoporated an autoregressive structure for spatiotemporal process. 
+This allows VAST to estimate whether "hotspots" in population density typically persist from one year to the next (Thorson, 2019). 
+However, by doing this the model was likely not converged (results can be found in non_converged folder). 
+So, I also incorporated an autoregressive structure on intercepts, which will be useful when interpolating into years when data are not available.
+The AIC for this model was the lowest.
 
 The explanation for each plot remains as before:
+
+> Diag--Encounter_prob: to check whether observed encounter frequencies are within the 95% predictive 
+  interval for predicted encounter probability.
+> Effective area: range expansion/contraction
+> Index biomass: changes in abundances. This plot needs to be readjusted, since we are not using catches but densities.
+> Output aniso: I don't know how to interpret this.
+> OutputDens: predictive densities per each year. It needs a legend, but I haven't figured out how to do it.
+> Posterior predictive: diagnostic plot for convergence.
+> Posterior predictive histogram: the distribution of the predictions.
+> Q-Q hist: the distribution of the quantiles.
+> Q-Q plot: diagnostic plot to check if the distribution of our data follows the assumed distribution.
+> Center of gravity: changes in gravity center in West-East direction (left) and South-North (rigth).
+
+Details on model configuration can be found in parameter_estimation file and records.
