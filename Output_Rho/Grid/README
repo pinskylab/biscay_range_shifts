@@ -1,11 +1,12 @@
 
-New results with a grid that covers the whole area (I had to reduce the number of knots to 25 to be able to run it in my computer).
+New results with a grid that covers the whole area and whose cell size now is 0.1º X 0.1º (about 11km x 11km).
 You will find too that the Density plot has a legend now.
-In addition, I also explored how the results would look like by adding sea surface temperature (results on temperature folder) 
-and surface chlorophyll (Chlorophyll folder). Running also these same models but with the quadratic effect.
+In addition, I also explored how the results would look by adding sea surface temperature (results on temperature folder) 
+and surface chlorophyll (Chlorophyll folder). I'm also running these same models with the quadratic effect.
 
-The model confguration reamins the same: an autoregressive structure for spatiotemporal process (useful when areas some areas are not sampled in every yer))a
-and an autoregressive structure on intercepts (useful to interpolate into years when data are not available).
+The model confguration reamins the same: an autoregressive structure for spatiotemporal process (useful when areas some areas
+are not sampled in every yer) and an autoregressive structure on intercepts (useful to interpolate into years when data are 
+not available). Number of knots has been reduced to 25 to be able to run it in my computer.
 
 The explanation for each plot remains as before:
 
