@@ -1,5 +1,29 @@
 
-New results with a grid that covers the whole area. You will find too that the Denisty plot has a legend now.
+New results with a grid that covers the whole area (I had to reduce the number of knots to 25 to be able to run it in my computer).
+You will find too that the Density plot has a legend now.
 In addition, I also explored how the results would look like by adding sea surface temperature (results on temperature folder) 
-and surface chlorophyll (Chlorophyll folder). 
+and surface chlorophyll (Chlorophyll folder). Running also these same models but with the quadratic effect.
+
+The model confguration reamins the same: an autoregressive structure for spatiotemporal process (useful when areas some areas are not sampled in every yer))a
+and an autoregressive structure on intercepts (useful to interpolate into years when data are not available).
+
+The explanation for each plot remains as before:
+
+> Diag--Encounter_prob: to check whether observed encounter frequencies are within the 95% predictive 
+  interval for predicted encounter probability.
+> Effective area: range expansion/contraction
+> Index biomass: changes in abundances. This plot needs to be readjusted, since we are not using catches but densities.
+> Output aniso: I don't know how to interpret this.
+> OutputDens_legend: predictive densities per each year. 
+> Posterior predictive: diagnostic plot for convergence.
+> Posterior predictive histogram: the distribution of the predictions.
+> Q-Q hist: the distribution of the quantiles.
+> Q-Q plot: diagnostic plot to check if the distribution of our data follows the assumed distribution.
+> Center of gravity: changes in gravity center in West-East direction (left) and South-North (rigth).
+
+Details on model configuration can be found in parameter_estimation file and records.
+
+    
+
+
 
