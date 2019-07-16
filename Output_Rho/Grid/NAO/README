@@ -3,7 +3,7 @@ was used (Thorson, 2019).
 
 The model configuration can be checked in settings. 
 The AIC can be checked in parameters estimates (ΔAIC smaller than 2).
-For covariates, Xconfig_zcp[z,c,p]=3 was used.
+For covariates, spatially varying effect was used via Xconfig_zcp[z,c,p]=3.
 
 The explanation for each plot remains as before:
 
