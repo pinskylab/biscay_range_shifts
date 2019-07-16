@@ -4,4 +4,4 @@ a model to select best range of temperature could be done but by the moment I de
 ΔAIC smaller than 2. 
 
 The model configuration can be checked in settings. 
-Xconfig_zcp = array( 1, dim=c(2,1,dim(X_gtp)[3]) )
+For covariates, Xconfig_zcp[z,c,p]=1 was used.
