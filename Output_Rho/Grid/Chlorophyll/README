@@ -1,5 +1,6 @@
 Model including the quadratic effect of log Chl (10m). Values at higher depths available.
 ΔAIC > 2.
 
-Model configurations can ce checked on settings.
+The model configurations can be checked in settings.
 For covariates, Xconfig_zcp[z,c,p]=1 was used.
+
