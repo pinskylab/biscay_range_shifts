@@ -10,6 +10,7 @@ trends), so I dont know if I'm missing something.
 The model confguration remains the same: an autoregressive structure for spatiotemporal process (useful when areas some areas
 are not sampled in every yer) and an autoregressive structure on intercepts (useful to interpolate into years when data are 
 not available). Number of knots has been reduced to 25 to be able to run it in my computer.
+
 More details on model configuration can be found in settings. 
 AIC values can be found in parameter estimates.  
 The explanation for each plot remains as before:
