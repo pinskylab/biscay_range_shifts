@@ -1,5 +1,5 @@
 
-Model including the quadratic effect of surface temperature (first 10m). Temperatures up to 200m also availabe; in fact, 
+Model including the quadratic effect of surface temperature (first 10m). Temperatures up to 200m also availabe (pdf attached); in fact, 
 a model to select best range of temperature could be done but by the moment I decided to try with surface values.
 
 The model configuration can be checked in settings. 
