@@ -1,6 +1,20 @@
 Model including the quadratic effect of log Chl (10m). Values at higher depths available.
 ΔAIC > 2.
 
-The model configurations can be checked in settings.
+The model configuration can be checked in settings. 
+The AIC can be checked in parameters estimates (ΔAIC bigger than 2)
 For covariates, Xconfig_zcp[z,c,p]=1 was used.
 
+The explanation for each plot remains as before:
+
+> Diag--Encounter_prob: to check whether observed encounter frequencies are within the 95% predictive 
+  interval for predicted encounter probability.
+> Effective area: range expansion/contraction
+> Index biomass: changes in abundances. This plot needs to be readjusted, since we are not using catches but densities.
+> Output aniso: I don't know how to interpret this.
+> OutputDens_legend: predictive densities per each year. 
+> Posterior predictive: diagnostic plot for convergence.
+> Posterior predictive histogram: the distribution of the predictions.
+> Q-Q hist: the distribution of the quantiles.
+> Q-Q plot: diagnostic plot to check if the distribution of our data follows the assumed distribution.
+> Center of gravity: changes in gravity center in West-East direction (left) and South-North (rigth).
