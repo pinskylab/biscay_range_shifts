@@ -2,7 +2,8 @@
 New results with a grid that covers the whole area and whose cell size now is 0.1º X 0.1º (about 11km x 11km).
 You will find too that the Density plot has a legend now.
 In addition, I have also tried addinbg sea surface temperature (results on temperature folder), surface chlorophyll (Chlorophyll folder)
-and NAO index. The AIC changes for every model but the plots look very similar (very slight differences). 
+and NAO index (Temperature and Chl were extracted from Copernicus, and they were only available since 1992, so all models comprise data 
+from 1992 to 2017 now). The AIC changes for every model but the plots look very similar (very slight differences). 
 
 The model confguration reamins the same for this case: an autoregressive structure for spatiotemporal process (useful when areas some areas
 are not sampled in every yer) and an autoregressive structure on intercepts (useful to interpolate into years when data are 
