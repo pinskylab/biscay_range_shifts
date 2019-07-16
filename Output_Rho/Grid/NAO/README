@@ -1,1 +1,3 @@
-Config
+Model including NAO index. Since this is a variable that do not change over space, only over time, spatially varying effect 
+was used (Thorson, 2019) in both predictors. 
+ΔAIC smaller than 2.
