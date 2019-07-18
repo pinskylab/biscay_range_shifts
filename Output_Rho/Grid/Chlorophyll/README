@@ -10,6 +10,7 @@ The explanation for each plot remains as before:
   interval for predicted encounter probability.
 > Effective area: range expansion/contraction
 > Index biomass: changes in abundances. This plot needs to be readjusted, since we are not using catches but densities.
+> Median_log_chl: plot showing the annual chl (log) values across years.
 > Output aniso: I don't know how to interpret this.
 > OutputDens_legend: predictive densities per each year. 
 > Posterior predictive: diagnostic plot for convergence.
